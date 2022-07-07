@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+}
+h1,h2,h3,h4, h5,h6{
+    margin: 0px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button:focus, input:focus, select:focus, textarea:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+img{
+    width:100%;
+    display:block;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+a, button{
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+/*pricing fithub section*/
+._pricing_fithub_wrapper {
+    background: var(--bg7);
+    padding: 60px 0 76px;
+}
+._pricing_fithub_cont_t {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.2;
+    color: var(--color8);
+    text-align: center;
+    margin: 0 0 66px;
+}
+._pricing_fithub_card {
+    background: var(--color1);
+    border-radius: 12px;
+    padding: 36px 0 62px;
+    transition: .2s all ease;
+    margin: 20px 0;
+}
+._pricing_fithub_card:hover {
+    box-shadow: 0px 36px 64px -11px rgba(121, 141, 173, 0.1);
+}
+._pricing_fithub_card_pr_t {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 32px;
+    color: rgba(22, 28, 40, 0.9);
+}
+._pricing_fithub_card_pr_box {
+    background: rgba(208, 237, 245, 0.5);
+    border-radius: 12px;
+    text-align: center;
+    width: 241px;
+    height: 78px;
+    margin: 0 auto 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._pricing_fithub_card_pr_t1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color5);
+}
+._pricing_fithub_card_pr_t1 svg {
+    margin: 0 -9px 8px 0;
+}
+._pricing_fithub_card_pr_t1_sp {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color6);
+}
+._pricing_fithub_card_feature {
+    margin: 0 0 22px;
+}
+._pricing_fithub_card_feature_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+._pricing_fithub_card_feature_li {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color6);
+    margin: 0 0 13px;
+}
+._pricing_fithub_card_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._pricing_fithub_card_link1 {
+    border: 1.5px solid rgba(22, 28, 40, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 18px 26px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color5);
+    width: 154px;
+    transition: .2s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._pricing_fithub_card_link1:hover {
+    background: var(--color5);
+    color: var(--color1);
+    border-color: transparent;
+}
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    ._pricing_fithub_cont_t {
+        font-size: 42px;
+        margin: 0 0 50px;
+    }
+}
+/* Desktop/Laptop */
+@media only screen and (max-width: 1199px) { 
+    ._pricing_fithub_cont_t {
+        font-size: 37px;
+        margin: 0 0 30px;
+    }
+    ._pricing_fithub_card_pr_t {
+        font-size: 25px;
+    }
+    ._pricing_fithub_card_pr_t1 {
+        font-size: 40px;
+    }
+    ._pricing_fithub_card_feature_li {
+        font-size: 15px;
+    }
+    ._pricing_fithub_card_link1 {
+        font-size: 15px;
+        width: 140px;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._pricing_fithub_cont_t {
+        font-size: 34px;
+        margin: 0 0 25px;
+    }
+    ._pricing_fithub_card_pr_t1 {
+        font-size: 35px;
+    }
+    ._pricing_fithub_card_link1 {
+        font-size: 14px;
+        width: 127px;
+        padding: 16px 10px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    ._pricing_fithub_cont_t {
+        font-size: 30px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._pricing_fithub_cont_t {
+        font-size: 28px;
+    }
+    ._pricing_fithub_card_pr_t1 {
+        font-size: 30px;
+    }
+    ._pricing_fithub_card_pr_t1_sp {
+        font-size: 18px;
+    }
+    ._pricing_fithub_card_pr_t {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._pricing_fithub_cont_t {
+        font-size: 25px;
+        margin: 0 0 15px;
+    }
+    ._pricing_fithub_card_pr_t1 {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    ._pricing_fithub_wrapper {
+        padding: 60px 0;
+    }
+}
+/*pricing fithub section end*/
+/*------------------
+    Variable 
+------------------*/
+:root {
+    --color1: #fff;
+    --color2: #18212A;
+    --color3: #778fa8;
+    --color4: #363D46;
+    --color5: #161C28;
+    --color6: #5D636B;
+    --color7: #282E39;
+    --color8: #151C26;
+    --bg1:#000;
+    --bg2: #D0EDF5;
+    --bg3: #EFFAFE;
+    --bg4: #F5EEE4;
+    --bg5: #ECDDCA;
+    --bg6: #EAEBFF;
+    --bg7: #F3F6FB;
+}
